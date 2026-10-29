@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#5b2a86">
+<title>Happy Birthday Jerry!!😇🥰💜</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Georgia, 'Times New Roman', serif;
+  background:linear-gradient(160deg,#160b24,#243b22 55%,#102217);
+  color:#fff;overflow-x:hidden;
+}
+/* =====================================
+   🖤 DARK ROMANTIC LOVE THEME
+   Light Pink Hearts + Dark Background
+   ===================================== */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 105, 180, 0.18),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 80% 30%,
+      rgba(255, 182, 193, 0.15),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 30% 80%,
+      rgba(190, 24, 93, 0.16),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #08050c,
+      #160812,
+      #210b1a,
+      #100712
+    );
+
+  background-size: 180% 180%;
+  animation: darkLoveGlow 16s ease-in-out infinite;
+}
+
+
+/* 💗 Large soft pink heart */
+
+body::before {
+  content: "♥";
+  position: fixed;
+
+  top: 8%;
+  left: 5%;
+
+  font-size: 190px;
+  color: rgba(255, 182, 193, 0.07);
+
+  text-shadow:
+    0 0 40px rgba(255, 105, 180, 0.35),
+    0 0 80px rgba(255, 105, 180, 0.18);
+
+  pointer-events: none;
+  z-index: 0;
+
+  animation: bigHeart 6s ease-in-out infinite;
+}
+
+
+/* 💕 Second heart */
+
+body::after {
+  content: "♥";
+  position: fixed;
+
+  right: 4%;
+  bottom: 8%;
+
+  font-size: 230px;
+  color: rgba(255, 105, 180, 0.06);
+
+  text-shadow:
+    0 0 45px rgba(255, 105, 180, 0.3),
+    0 0 90px rgba(255, 105, 180, 0.15);
+
+  pointer-events: none;
+  z-index: 0;
+
+  animation: bigHeart2 7s ease-in-out infinite;
+}
+
+
+/* 🌙 Dark background movement */
+
+@keyframes darkLoveGlow {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+
+
+/* 💗 Heart movement */
+
+@keyframes bigHeart {
+
+  0%, 100% {
+    transform: translateY(0) rotate(-8deg);
+  }
+
+  50% {
+    transform: translateY(-20px) rotate(8deg);
+  }
+
+}
+
+
+@keyframes bigHeart2 {
+
+  0%, 100% {
+    transform: translateY(0) rotate(8deg);
+  }
+
+  50% {
+    transform: translateY(-25px) rotate(-8deg);
+  }
+
+}
+
+
+/* Keep your website content above background */
+
+.page {
+  position: relative;
+  z-index: 5;
+}
+
+section {
+  background: transparent;
+}
+.hero {
+  background:
+    radial-gradient(
+      circle at 50% 20%,
+      rgba(255, 105, 180, 0.28),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 50% 80%,
+      rgba(168, 85, 247, 0.20),
+      transparent 35%
+    ),
+    transparent;
+}
+
+/* Floating hearts */
+.floating-hearts {
+  font-size: 22px;
+  letter-spacing: 12px;
+  margin-bottom: 25px;
+  animation: floatHearts 3s ease-in-out infinite;
+}
+
+@keyframes floatHearts {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Top badge */
+.badge {
+  padding: 10px 22px;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.35);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Main heading */
+.hero h1 {
+  font-size: clamp(45px, 8vw, 85px);
+  line-height: 1.1;
+  margin: 5px 0 15px;
+  color: #ffffff;
+  text-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+
+.hero h1 span {
+  display: block;
+  background: linear-gradient(90deg, #e9d5ff, #86efac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Love line */
+.love-line {
+  font-size: 19px;
+  color: #f3e8ff;
+  margin-bottom: 18px;
+}
+
+/* Birthday date */
+.date {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+/* Main message */
+.hero-message {
+  max-width: 650px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.7;
+  margin: 5px auto;
+}
+
+.hero-message b {
+  color: #f5d0fe;
+}
+
+.hero-message.small {
+  font-size: 16px;
+  color: #d1fae5;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.hero .btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #a855f7, #22c55e);
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(168,85,247,0.4);
+  transition: all 0.3s ease;
+}
+
+.hero .btn:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 12px 35px rgba(168,85,247,0.55);
+}
+
+/* Scroll message */
+.scroll {
+  margin-top: 35px;
+  color: #d1d5db;
+  font-size: 13px;
+  animation: scrollBounce 2s infinite;
+}
+
+@keyframes scrollBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  .floating-hearts {
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+
+  .badge {
+    font-size: 12px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .love-line {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 18px;
+  }
+
+  .hero-message {
+    font-size: 17px;
+  }
+
+  .hero-message.small {
+    font-size: 14px;
+  }
+
+  .hero .btn {
+    font-size: 15px;
+    padding: 13px 23px;
+  }
+}
+
+.dream-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 20px auto;
+}
+
+.dream-table td {
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.08);
+  text-align: center;
+}
+
+.dream-label {
+  color: #e8f5e9;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+}
+.dream-message {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.dream-house-image {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 3px solid #a855f7;
+    box-shadow: 0 10px 35px rgba(168, 85, 247, 0.35);
+}
+
+.dream-house-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.dream-house-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .dream-house-image {
+        height: 280px;
+        border-radius: 20px;
+    }
+}
+.dream-car-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.dream-car-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.birthday-message {
+    text-align: left;
+    line-height: 1.8;
+    font-size: 17px;
+}
+/* DEEPAK NAME GAME */
+.name-game {
+  padding: 50px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.name-game h2 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.game-intro {
+  color: #f3f4f6;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+/* Letter Cards */
+.name-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.letter-card {
+  background: rgba(255, 255, 255, 0.96);
+  padding: 25px 22px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  color: #252525;
+}
+
+.letter-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(168, 85, 247, 0.35);
+}
+
+/* Circle Letter */
+.letter {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #a855f7, #22c55e);
+  color: white;
+
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Card Heading */
+.letter-card h3 {
+  margin: 10px 0;
+  color: #6d28d9;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+/* Card Description */
+.letter-card p {
+  line-height: 1.7;
+  text-align: left;
+  color: #333333;
+  font-size: 16px;
+}
+
+/* Final Name Box */
+.name-result {
+  max-width: 700px;
+  margin: 35px auto 0;
+  padding: 28px;
+  border-radius: 25px;
+
+  background: linear-gradient(135deg, #f3e8ff, #dcfce7);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+  color: #333333;
+}
+
+.name-result h3 {
+  font-size: 27px;
+  letter-spacing: 8px;
+  color: #6d28d9;
+  margin-bottom: 12px;
+}
+
+.name-result p {
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.name-result p b {
+  color: #7e22ce;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  .name-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .name-game h2 {
+    font-size: 24px;
+  }
+
+  .letter-card {
+    padding: 22px;
+  }
+
+  .letter-card h3 {
+    font-size: 18px;
+  }
+
+  .name-result h3 {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  .name-result p {
+    font-size: 16px;
+  }
+}
+
+.music-box {
+    width: 280px;
+    margin: 30px auto;
+    padding: 35px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #fff1f7, #ffd1e3);
+    border: 2px solid #f472b6;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(236, 72, 153, 0.25);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.music-box:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(236, 72, 153, 0.4);
+}
+
+.music-heart {
+    font-size: 65px;
+    animation: musicHeart 1.5s infinite;
+}
+
+.music-box h3 {
+    color: #be185d;
+    margin: 12px 0 8px;
+    font-size: 20px;
+}
+
+.music-box p {
+    color: #831843;
+    font-size: 14px;
+}
+
+@keyframes musicHeart {
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+body:before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;
+  background-image:radial-gradient(#fff 1px,transparent 1px);
+  background-size:28px 28px;
+}
+.page{max-width:520px;margin:auto;position:relative}
+section{min-height:100vh;padding:34px 22px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative}
+.hero{
+  background:radial-gradient(circle at 50% 25%,rgba(143,73,190,.55),transparent 35%),
+             linear-gradient(180deg,rgba(20,8,32,.2),rgba(10,28,18,.75));
+}
+.badge{font-family:Arial,sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#d9b9ff}
+h1{font-size:52px;line-height:1.02;margin:18px 0 10px;text-shadow:0 0 24px #9c55d8}
+h2{font-size:32px;margin:12px 0;color:#f0dfff}
+.subtitle{font-family:Arial,sans-serif;color:#dcefd9;line-height:1.6;font-size:15px}
+.date{margin:18px 0;padding:9px 20px;border:1px solid rgba(255,255,255,.25);border-radius:30px;background:rgba(255,255,255,.08);font-family:Arial}
+.btn{
+  margin-top:25px;padding:14px 25px;border:0;border-radius:30px;
+  background:linear-gradient(90deg,#7b3fb5,#31925a);color:#fff;font-weight:bold;
+  font-size:15px;box-shadow:0 8px 30px rgba(0,0,0,.35);cursor:pointer
+}
+.scroll{position:absolute;bottom:24px;font:12px Arial;color:#cde7cb;opacity:.8}
+.card{
+  width:100%;padding:25px 20px;border-radius:28px;
+  background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);
+  backdrop-filter:blur(10px);box-shadow:0 12px 40px rgba(0,0,0,.28);margin-top:20px
+}
+.icon{font-size:58px;margin-bottom:8px}
+.card p{font-family:Arial,sans-serif;color:#e5efe4;line-height:1.7;font-size:14px}
+.real-photo,.real-car{
+  min-height:300px;border-radius:24px;margin:18px 0;overflow:hidden;position:relative;
+  background:linear-gradient(180deg,#7cafd0 0 42%,#72a64d 42% 100%);
+}
+.house .sun{position:absolute;right:30px;top:30px;width:55px;height:55px;border-radius:50%;background:#ffe79a;box-shadow:0 0 35px #fff0a8}
+.house .mountain{position:absolute;bottom:95px;left:-20px;width:110%;height:120px;background:#3d6940;clip-path:polygon(0 100%,22% 35%,42% 75%,62% 15%,84% 72%,100% 30%,100% 100%)}
+.house .home{position:absolute;bottom:55px;left:50%;transform:translateX(-50%);width:190px;height:120px;background:#eee2cf;border-radius:8px;box-shadow:0 10px 15px rgba(0,0,0,.25)}
+.house .roof{position:absolute;bottom:150px;left:50%;transform:translateX(-50%);width:220px;height:80px;background:#5b2d2d;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.house .door{position:absolute;bottom:0;left:80px;width:35px;height:65px;background:#55351f;border-radius:5px 5px 0 0}
+.house .window{position:absolute;bottom:42px;right:35px;width:45px;height:38px;background:#9ed8df;border:5px solid #fff}
+.house .tree{position:absolute;bottom:40px;font-size:55px}
+.house .t1{left:15px}.house .t2{right:10px}
+.real-photo,.real-car{height:300px;border-radius:24px;overflow:hidden;margin:18px 0;background:#111}.real-photo img,.real-car img{width:100%;height:100%;object-fit:cover;display:block}
+.car{
+  height:210px;border-radius:24px;margin:18px 0;position:relative;overflow:hidden;
+  background:linear-gradient(#17121f,#3d3150)
+}
+.car:before{content:"";position:absolute;bottom:25px;left:12%;width:76%;height:55px;background:linear-gradient(90deg,#222,#b6a8c7,#30253a);border-radius:30px 50px 18px 18px;box-shadow:0 8px 20px #000}
+.car:after{content:"";position:absolute;bottom:12px;left:22%;width:56%;height:35px;border-bottom:8px solid #111;border-radius:50%}
+.wheel{position:absolute;bottom:5px;width:38px;height:38px;border-radius:50%;background:#080808;border:8px solid #777;z-index:2}
+.w1{left:22%}.w2{right:22%}
+.windowcar{position:absolute;bottom:80px;left:31%;width:38%;height:42px;background:#8eb6c0;clip-path:polygon(15% 100%,28% 0,75% 0,95% 100%);z-index:2}
+.timeline{width:100%;margin-top:20px;text-align:left}
+.item{border-left:3px solid #a968d5;padding:0 0 24px 18px;margin-left:10px;position:relative}
+.item:before{content:"";position:absolute;left:-9px;top:0;width:13px;height:13px;border-radius:50%;background:#75b96f;box-shadow:0 0 15px #75b96f}
+.item h3{font-size:18px;color:#e8cbff;margin-bottom:5px}.item p{font:14px Arial;color:#dfe9dc;line-height:1.6}
+.quote{font-size:25px;line-height:1.5;color:#f4e5ff;font-style:italic}
+.final h2{font-size:38px}
+.heart{font-size:55px;animation:pulse 1.4s infinite}
+@keyframes pulse{50%{transform:scale(1.18)}}
+.float{position:fixed;bottom:-30px;font-size:22px;animation:rise 7s linear forwards;z-index:10;pointer-events:none}
+@keyframes rise{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+footer{padding:18px;text-align:center;font:11px Arial;color:#b8c8b5}
+
+.real-photo{width:100%;height:300px;border-radius:24px;overflow:hidden;margin:18px 0;background:#111;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.real-photo img{width:100%;height:100%;display:block;object-fit:cover}
+.car-photo{height:250px}
+.photo-note{font:11px Arial;color:#bfcdbb;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="page">
+
+<section class="hero" id="top">
+
+  <div class="floating-hearts">
+    ❤️ 💜 ✨ 💕 ✨ 💜 ❤️
+  </div>
+
+  <div class="badge">
+    💌 A Little Birthday Surprise Made With Love 💌
+  </div>
+
+  <h1>
+    Happy Birthday
+    <span>Mayiluu</span> 💜
+  </h1>
+
+  <div class="love-line">
+    ✨ A special day for a truly special person ✨
+  </div>
+
+  <div class="date">
+    🎂 10 November 🎂
+  </div>
+
+  <p class="hero-message">
+    Today isn't just another day...<br>
+    It's a day to celebrate <b>you</b>. ❤️
+  </p>
+
+  <p class="hero-message small">
+    Thank you for being someone who makes ordinary moments
+    a little more beautiful. 💕
+  </p>
+
+  <button class="btn" onclick="document.getElementById('dream').scrollIntoView({behavior:'smooth'})">
+    💜 Open Your Birthday Surprise ✨
+  </button>
+
+  <div class="scroll">
+    ↓ There is something special waiting for you ↓
+  </div>
+
+</section>
+
+<section id="dream">
+  <div class="icon">🏡</div>
+  <h2>Your Dream House</h2>
+  <h3>🏡Your Dream Home, One Day Soon!!!🌿💜</h3>
+
+<table class="dream-table">
+  <tr>
+    <td>
+      <label class="dream-label">
+        I truly hope that one day, you achieve the dream farmhouse you’ve always wished for —
+        a beautiful home surrounded by green nature, peace, happiness, and everything you love.
+        ✨ Keep believing in yourself and never stop dreaming.🏡 One day, you'll stand before your dream house and say,
+    <b>“I made it.”</b> ❤️
+      </label>
+    </td>
+  </tr>
+</table>
+<br><br>
+<div class="dream-house-image">
+    <img src="https://i.ibb.co/3mL0H29K/Dream-Home-Amongst-Nature.png"
+     alt="Dream Home">
+</div>
+<section>
+  <div class="icon">🚘</div>
+  <h2>Your Dream Car</h2>
+  <div class="dream-car-image">
+  <img src="https://i.ibb.co/svK1nwKX/Dreams-in-Motion-at-Sunset.png"
+       alt="Dream Car Dream">
+</div>
+
+<section>
+  <div class="icon">🏆</div>
+  <h2>Your Journey</h2>
+  <div class="journey-image">
+  <img src="https://i.ibb.co/C5v5MC3f/Your-Inspirational-Journey-Map.png"
+       alt="Your Journey">
+</div>
+</section>
+<section>
+  <div class="icon">💜</div>
+  <h2>From Your Best Friend</h2>
+  <div class="card">
+      <h2>“Jerry, whatever happens, always remember that I'll be always for you.”</h2>
+
+    <div class="birthday-message">
+
+  Life may take us through different roads, different dreams, and different chapters, but I hope you always remember one thing — <b>you will always have someone who truly believes in you, cares about you, and wants to see you achieve everything you dream of.</b> ❤️
+
+  <br><br>
+
+  Keep dreaming big, Deeee. ✨ Keep believing in yourself, even when the journey feels difficult. Keep working hard, even when the results take time. And whenever life gets tough, please don't forget how strong and capable you are. <b>Never give up on the dreams that make your heart happy.</b> 🌟
+
+  <br><br>
+
+  On your special day, I wish you <b>endless success, genuine happiness, inner peace, and countless beautiful moments</b> that you'll remember forever. 🎂💜 May every effort you make bring you one step closer to the life you've always imagined — your <b>dream farmhouse, your dream car, your biggest achievements, and every little dream hidden in your heart.</b> 🏡🚗✨
+
+  <br><br>
+
+  I hope one day you look back at this journey and smile proudly, knowing that you never stopped trying. And when that day comes, I hope you remember that <b>I was always cheering for you, believing in you, and wishing for your happiness every step of the way.</b> ❤️
+
+  <br><br>
+
+  No matter where life takes us or how much things change, <b>you'll always have my love, care, encouragement, and support.</b> 🤗💜 Whenever you feel tired, remember that someone is always wishing to see you happy, successful, and proud of yourself.
+
+  <br><br>
+
+  🎂✨ <b>Happy Birthday, Lucky Charm😍!</b> ✨🎂
+
+  <br><br>
+
+  May this new chapter of your life bring you closer to every dream you've ever wished for. <b>Keep dreaming. Keep growing. Keep smiling. Keep going.</b> 🌟
+
+  <br><br>
+
+  <b>Your dreams are worth fighting for, and I'll always be here cheering for you. ❤️💜</b>
+  <br>
+  May you achieve everything your heart wishes for and more.
+  <br>
+  <b>Happy Birthday, My Special Soul! 🥹🎉</b>
+
+</div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="heart">❤️</div>
+
+  <h2>You Are My Favorite Person 💜</h2>
+
+  <div class="card">
+    <p class="quote">
+      “Some people make ordinary moments feel extraordinary.” ✨
+    </p>
+<br>
+    <p>
+      You are one of those rare people who make life a little warmer,
+      happier, and more beautiful just by being there. ❤️
+    </p>
+<br>
+    <p>
+      Thank you for every smile, every laugh, every little moment,
+      and simply for being the wonderful person you are. 🥹💜
+    </p>
+<br>
+    <p>
+      No matter what happens, I hope you always know that
+      <b>you are deeply cared for, truly appreciated, and incredibly special to me.</b> ❤️
+    </p>
+<br>
+    <p class="love">
+      Some friendships are written in words,<br>
+      but the most special ones are written in the heart. 💕
+    </p>
+<br>
+    <div class="final-wish">
+      🎂 Happy Birthday! 🎉<br>
+      <span>Stay happy, stay blessed, and keep that beautiful smile forever. ❤️</span>
+    </div>
+  </div>
+</section>
+<section class="name-game">
+  <div class="heart">💜</div>
+  <h2>What Does DEEPAK Mean to Me? ❤️</h2>
+  <p class="game-intro">
+    Six letters... but each one holds a little piece of love, care and memories. ✨
+  </p>
+
+  <div class="name-cards">
+
+    <div class="letter-card">
+      <div class="letter">D</div>
+      <h3>Dear 💕</h3>
+      <p>Someone who is truly dear to my heart.</p>
+    </div>
+
+    <div class="letter-card">
+      <div class="letter">E</div>
+      <h3>Everything Feels Better 😊</h3>
+      <p>Your presence can make even an ordinary day feel special.</p>
+    </div>
+
+    <div class="letter-card">
+      <div class="letter">E</div>
+      <h3>Extra Special ✨</h3>
+      <p>There is a special place in my heart that belongs to you.</p>
+    </div>
+
+    <div class="letter-card">
+      <div class="letter">P</div>
+      <h3>Precious 💜</h3>
+      <p>Your friendship is something I will always treasure.</p>
+    </div>
+
+    <div class="letter-card">
+      <div class="letter">A</div>
+      <h3>Always Cared For ❤️</h3>
+      <p>No matter what happens, your happiness will always matter to me.</p>
+    </div>
+
+    <div class="letter-card">
+      <div class="letter">K</div>
+      <h3>Kind-Hearted 🌟</h3>
+      <p>Your kindness is one of the things that makes you special.</p>
+    </div>
+
+  </div>
+
+  <div class="name-result">
+    <h3>D + E + E + P + A + K</h3>
+    <p>
+      Six letters. One beautiful person. ❤️
+    </p>
+    <p>
+      <b>A person who will always have a special place in my heart. 💜</b>
+    </p>
+  </div>
+<div class="music-box" onclick="playBirthdaySong()">
+    <div class="music-heart">💗</div>
+    <h3>🎵 A Little Song For You</h3>
+    <p>Tap here… and let the memories begin ✨</p>
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="Rathinamo (Female Version).mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playBirthdaySong() {
+    const music = document.getElementById("bgMusic");
+
+    music.volume = 0.7;
+    music.play();
+
+    document.querySelector(".music-box h3").innerHTML =
+        "🎶 Playing Just For You 💗";
+
+    document.querySelector(".music-box p").innerHTML =
+        "Let the music speak what words cannot say... ✨";
+}
+</script>
+
+<script>
+function celebrate(){
+  for(let i=0;i<28;i++){
+    setTimeout(()=>{
+      const e=document.createElement('div');
+      e.className='float';
+      e.textContent=['💜','💚','✨','🎉','❤️','🌿'][Math.floor(Math.random()*6)];
+      e.style.left=Math.random()*96+'vw';
+      e.style.animationDuration=(4+Math.random()*4)+'s';
+      document.body.appendChild(e);
+      setTimeout(()=>e.remove(),8000);
+    },i*80);
+  }
+  alert("Jerry, your best days are still ahead! 💜 Happy Birthday! 🎂");
+}
+</script>
+</body>
+</html>
