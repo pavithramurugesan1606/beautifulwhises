@@ -50,6 +50,34 @@ body {
   animation: darkLoveGlow 16s ease-in-out infinite;
 }
 
+  /* 📱 Mobile - show the complete image and all text */
+@media (max-width: 600px) {
+
+    .dream-house-image,
+    .journey-image,
+    .dream-car-image,
+    .real-photo,
+    .real-car {
+        width: 100%;
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+
+    .dream-house-image img,
+    .journey-image img,
+    .dream-car-image img,
+    .real-photo img,
+    .real-car img {
+        width: 100%;
+        height: auto !important;
+        max-height: none !important;
+        object-fit: contain !important;
+        display: block;
+    }
+}
 
 /* 💗 Large soft pink heart */
 
