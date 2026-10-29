@@ -647,153 +647,99 @@ footer{padding:18px;text-align:center;font:11px Arial;color:#b8c8b5}
 .car-photo{height:250px}
 .photo-note{font:11px Arial;color:#bfcdbb;margin-top:8px}
 
- /* =========================================
-   📱 PHONE VIEW - SMALL TEXT
+/* =========================================
+   📱 PHONE - PREVENT TEXT FROM HIDING
    ========================================= */
 
 @media (max-width: 600px) {
 
-    /* Main birthday heading */
-    .hero h1 {
-        font-size: 32px;
-        line-height: 1.15;
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
-    /* All section headings */
-    h2 {
-        font-size: 21px;
-        line-height: 1.3;
+    /* Keep the whole website inside phone screen */
+    .page {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        overflow-x: hidden;
     }
 
-    /* Hero message */
-    .hero-message {
-        font-size: 13px;
-        line-height: 1.5;
+    /* Keep sections inside the screen */
+    section {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
 
-    .hero-message.small {
-        font-size: 11px;
-        line-height: 1.5;
+    /* Cards */
+    .card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
-    /* Date */
-    .date {
-        font-size: 13px;
-        padding: 8px 14px;
+    /* Birthday paragraphs */
+    .birthday-message,
+    .card p,
+    .dream-label,
+    .item p,
+    .final-wish,
+    .game-intro,
+    .letter-card p,
+    .name-result p {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
+        word-break: normal;
     }
 
-    /* Love line */
-    .love-line {
-        font-size: 12px;
-        line-height: 1.5;
+    /* Headings */
+    h1,
+    h2,
+    h3 {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        word-break: normal;
     }
 
-    /* Badge */
-    .badge {
-        font-size: 9px;
-        line-height: 1.3;
-        letter-spacing: 1px;
-    }
-
-    /* Dream section */
-    .dream-label {
-        font-size: 11px;
-        line-height: 1.5;
+    /* Dream table */
+    .dream-table {
+        width: 100%;
+        max-width: 100%;
+        table-layout: fixed;
     }
 
     .dream-table td {
-        padding: 11px;
+        width: 100%;
+        max-width: 100%;
+        overflow-wrap: anywhere;
     }
 
-    /* Card text */
-    .card p {
-        font-size: 11px;
-        line-height: 1.6;
+    /* Name cards */
+    .name-game,
+    .name-cards,
+    .letter-card,
+    .name-result {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
-    /* Birthday message */
-    .birthday-message {
-        font-size: 12px;
-        line-height: 1.6;
-        text-align: left;
-    }
-
-    /* Journey */
-    .item h3 {
-        font-size: 14px;
-    }
-
-    .item p {
-        font-size: 11px;
-        line-height: 1.5;
-    }
-
-    /* Final section */
-    .final h2 {
-        font-size: 23px;
-        line-height: 1.3;
-    }
-
-    .quote {
-        font-size: 16px;
-        line-height: 1.4;
-    }
-
+    /* Prevent long text from going outside */
+    .quote,
+    .love-line,
+    .hero-message,
     .final-wish {
-        font-size: 12px;
-        line-height: 1.6;
-    }
-
-    /* Name game */
-    .name-game h2 {
-        font-size: 19px;
-        line-height: 1.3;
-    }
-
-    .game-intro {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-
-    .letter-card h3 {
-        font-size: 14px;
-        line-height: 1.3;
-    }
-
-    .letter-card p {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-
-    .name-result h3 {
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-
-    .name-result p {
-        font-size: 12px;
-        line-height: 1.5;
-    }
-
-    /* Music */
-    .music-box h3 {
-        font-size: 15px;
-    }
-
-    .music-box p {
-        font-size: 11px;
-        line-height: 1.4;
-    }
-
-    /* Button */
-    .btn {
-        font-size: 12px;
-        padding: 10px 16px;
-    }
-
-    /* Footer */
-    footer {
-        font-size: 9px;
+        max-width: 100%;
+        overflow-wrap: anywhere;
     }
 }
 </style>
